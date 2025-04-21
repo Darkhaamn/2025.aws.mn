@@ -1,19 +1,25 @@
-import { Speaker } from "@/data";
 import { FC } from "react";
 
-const Speakers: FC<{ speakers: Speaker[] }> = ({ speakers }) => {
+const Speakers: FC = () => {
   return (
     <section className="block py-10" id="speakers">
-      <h2 className="block antialiased tracking-normal font-sans text-2xl md:text-3xl lg:text-4xl text-inherit leading-10 mt-6 font-extrabold">
-        Meet our Speakers
-      </h2>
+      <div className="flex mt-6 items-center gap-6">
+        <div className="antialiased tracking-normal font-sans text-2xl md:text-3xl lg:text-4xl text-inherit leading-10 font-extrabold">
+          Meet our Speakers
+        </div>
+        <div>
+          <div className="relative items-center font-bold uppercase whitespace-nowrap select-none bg-primary text-white py-1 px-2 text-xs rounded-md text-center inline mr-1">
+            Coming Soon
+          </div>
+        </div>
+      </div>
       <p className="block antialiased tracking-normal text-muted-foreground text-base pt-4 leading-10 mb-6 ">
         Get ready to hear from inspiring speakers—from AWS experts to our local
         leaders—who are excited to share their knowledge and experiences with
         you!
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
         {speakers.map((item) => {
           return (
             <a
@@ -46,7 +52,7 @@ const Speakers: FC<{ speakers: Speaker[] }> = ({ speakers }) => {
             </a>
           );
         })}
-      </div>
+      </div> */}
     </section>
   );
 };

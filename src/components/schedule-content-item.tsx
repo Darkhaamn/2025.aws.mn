@@ -33,7 +33,7 @@ const ScheduleContentItem: FC<{
                   <>
                     <div className="relative items-center font-bold uppercase whitespace-nowrap select-none bg-primary text-white py-1 px-2 text-xs rounded-md text-center inline mr-1">
                       {item.detail.lang.toUpperCase()}
-                    </div>{" "}
+                    </div>
                   </>
                 )}
                 {item.title}

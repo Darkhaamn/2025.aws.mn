@@ -1,23 +1,24 @@
-import { Schedule } from "@/data";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@radix-ui/react-tabs";
 import { FC } from "react";
-import ScheduleContent from "./schedule-content";
 
-const ScheduleSection: FC<{ speakerDay: Schedule[]; gameDay: Schedule[] }> = ({
-  speakerDay,
-  gameDay,
-}) => {
+const ScheduleSection: FC = () => {
   return (
     <section className="block py-10" id="agenda">
-      <h2 className="block antialiased tracking-normal font-sans text-2xl md:text-3xl lg:text-4xl text-inherit leading-10 mt-6 font-extrabold">
-        Event Agenda
-      </h2>
+      <div className="flex mt-6 items-center gap-6">
+        <div className="antialiased tracking-normal font-sans text-2xl md:text-3xl lg:text-4xl text-inherit leading-10 font-extrabold">
+          Event Agenda
+        </div>
+        <div>
+          <div className="relative items-center font-bold uppercase whitespace-nowrap select-none bg-primary text-white py-1 px-2 text-xs rounded-md text-center inline mr-1">
+            Coming Soon
+          </div>
+        </div>
+      </div>
       <p className="block antialiased tracking-normal text-muted-foreground text-base pt-4 leading-10 mb-6 ">
         We hope you enjoy the event! We've prepared a lineup of exciting talks
         brought to you by passionate community enthusiasts and builders.
       </p>
 
-      <Tabs defaultValue="speakday" className="w-full">
+      {/* <Tabs defaultValue="speakday" className="w-full">
         <TabsList className="flex gap-4 w-full grid-cols-2 bg-card rounded-md p-2 ">
           <TabsTrigger
             value="speakday"
@@ -38,7 +39,7 @@ const ScheduleSection: FC<{ speakerDay: Schedule[]; gameDay: Schedule[] }> = ({
         <TabsContent value="gameday">
           <ScheduleContent eventSchedule={gameDay} />
         </TabsContent>
-      </Tabs>
+      </Tabs> */}
     </section>
   );
 };

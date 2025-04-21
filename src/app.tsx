@@ -1,14 +1,12 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import About from "./components/about";
-import FAQs from "./components/faq";
 import Footer from "./components/footer";
 import Organizers from "./components/organizers";
 import ScheduleSection from "./components/schedule";
 import Speakers from "./components/speakers";
 import Sponsors from "./components/sponsors";
 import Stats from "./components/stats";
-import { gameDay, speakerDay, speakers } from "./data";
 
 function App() {
   return (
@@ -18,11 +16,11 @@ function App() {
         <Hero />
         <Stats />
         <About />
-        <Speakers speakers={speakers} />
-        <ScheduleSection gameDay={gameDay} speakerDay={speakerDay} />
+        <Speakers />
+        <ScheduleSection />
         <Sponsors />
         <Organizers />
-        <FAQs />
+        {/* <FAQs /> */}
       </div>
       <Footer />
     </>
