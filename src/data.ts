@@ -34,7 +34,7 @@ export const speakers: Speaker[] = [
   {
     name: "Jane Doe",
     position: "Cloud Architect",
-    image: "https://i.pravatar.cc/300",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     description:
       "Jane is an experienced cloud architect who loves designing scalable solutions on AWS.",
     link: "https://www.linkedin.com/in/janedoe/",
@@ -42,7 +42,7 @@ export const speakers: Speaker[] = [
   {
     name: "John Smith",
     position: "DevOps Engineer",
-    image: "https://i.pravatar.cc/301",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     description:
       "John specializes in CI/CD pipelines and infrastructure automation with AWS.",
     link: "https://www.linkedin.com/in/johnsmith/",
@@ -50,66 +50,10 @@ export const speakers: Speaker[] = [
   {
     name: "Emily Chen",
     position: "Solutions Architect",
-    image: "https://i.pravatar.cc/302",
+    image: "https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI=",
     description:
       "Emily designs cloud solutions for enterprises and helps them migrate to AWS.",
     link: "https://www.linkedin.com/in/emilychen/",
-  },
-  {
-    name: "Carlos Martinez",
-    position: "AWS Consultant",
-    image: "https://i.pravatar.cc/303",
-    description:
-      "Carlos advises companies on AWS best practices and helps optimize their cloud resources.",
-    link: "https://i.pravatar.cc/300",
-  },
-  {
-    name: "Sophie Lee",
-    position: "Full Stack Developer",
-    image: "https://i.pravatar.cc/304",
-    description:
-      "Sophie builds modern web applications with a focus on leveraging AWS services.",
-    link: "https://www.linkedin.com/in/sophielee/",
-  },
-  {
-    name: "Michael Nguyen",
-    position: "Security Specialist",
-    image: "https://i.pravatar.cc/305",
-    description:
-      "Michael focuses on securing cloud environments and ensuring compliance with AWS.",
-    link: "https://www.linkedin.com/in/michaelnguyen/",
-  },
-  {
-    name: "Olivia Brown",
-    position: "Data Engineer",
-    image: "https://i.pravatar.cc/306",
-    description:
-      "Olivia specializes in building data pipelines and analytics solutions on AWS.",
-    link: "https://www.linkedin.com/in/oliviabrown/",
-  },
-  {
-    name: "Liam Wilson",
-    position: "Software Engineer",
-    image: "https://i.pravatar.cc/307",
-    description:
-      "Liam develops robust software solutions and enjoys integrating AWS services into applications.",
-    link: "https://www.linkedin.com/in/liamwilson/",
-  },
-  {
-    name: "Ava Davis",
-    position: "Technical Evangelist",
-    image: "https://i.pravatar.cc/308",
-    description:
-      "Ava shares her passion about cloud computing through conferences, workshops, and online content.",
-    link: "https://www.linkedin.com/in/avadavis/",
-  },
-  {
-    name: "Ethan Taylor",
-    position: "Infrastructure Engineer",
-    image: "https://i.pravatar.cc/309",
-    description:
-      "Ethan is responsible for managing and optimizing complex cloud infrastructure on AWS.",
-    link: "https://www.linkedin.com/in/ethantaylor/",
   },
 ];
 
@@ -190,16 +134,6 @@ export const sponsors: Sponsor[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
     link: "https://aws.amazon.com/",
   },
-  {
-    name: "Cody",
-    logo: "https://cody.mn/870beb0ed1c38aeba495d4255aad4b09.svg",
-    link: "https://cody.mn/",
-  },
-  {
-    name: "Sanchir Tech",
-    logo: "https://sanchirtech.com/st/img/logo-white.png",
-    link: "https://sanchirtech.com/",
-  },
 ];
 
 export const organizers: Speaker[] = [
@@ -237,6 +171,13 @@ export const organizers: Speaker[] = [
     image: "https://www.aws.mn/batorgil.jpeg",
     description: "Community Leader at AWS User Group Ulaanbaatar.",
     link: "https://www.linkedin.com/in/batorgil-it/",
+  },
+  {
+    name: "Uurtsaikh Nyambat",
+    position: "Senior Software Engineer At Zerotech",
+    image: "https://www.aws.mn/uurtsaikh.jpg",
+    description: "Community Leader at AWS User Group Ulaanbaatar.",
+    link: "https://www.linkedin.com/in/uurtsaikh-nyambat/",
   },
 ];
 

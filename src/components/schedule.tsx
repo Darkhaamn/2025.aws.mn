@@ -1,4 +1,7 @@
 import { FC } from "react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import ScheduleContent from "./schedule-content";
+import { gameDay, speakerDay } from "@/data";
 
 const ScheduleSection: FC = () => {
   return (
@@ -18,7 +21,7 @@ const ScheduleSection: FC = () => {
         brought to you by passionate community enthusiasts and builders.
       </p>
 
-      {/* <Tabs defaultValue="speakday" className="w-full">
+      <Tabs defaultValue="speakday" className="w-full">
         <TabsList className="flex gap-4 w-full grid-cols-2 bg-card rounded-md p-2 ">
           <TabsTrigger
             value="speakday"
@@ -39,7 +42,7 @@ const ScheduleSection: FC = () => {
         <TabsContent value="gameday">
           <ScheduleContent eventSchedule={gameDay} />
         </TabsContent>
-      </Tabs> */}
+      </Tabs>
     </section>
   );
 };

@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Hero: FC = () => {
   const [, formattedRes] = useCountDown({
-    targetDate: `2025-05-30 23:59:59`,
+    targetDate: `2025-06-13 12:00:00`,
   });
 
   return (
@@ -19,7 +19,7 @@ const Hero: FC = () => {
           individuals. Enhance your cloud skills at this special event!
         </div>
         <div className="max-w-[600px] text-foreground md:text-xl pt-4">
-          Scheduled date: 2025 May 30-31
+          Scheduled date: 2025 June 13-14
         </div>
 
         <div className="flex gap-2 md:gap-4 pt-2">

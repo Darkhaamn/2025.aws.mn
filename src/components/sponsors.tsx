@@ -1,3 +1,4 @@
+import { sponsors } from "@/data";
 import { FC } from "react";
 
 const Sponsors: FC = () => {
@@ -18,7 +19,7 @@ const Sponsors: FC = () => {
         support makes everything possible!
       </p>
 
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
         {sponsors.map((item) => {
           return (
             <a
@@ -40,7 +41,7 @@ const Sponsors: FC = () => {
             </a>
           );
         })}
-      </div> */}
+      </div>
     </section>
   );
 };

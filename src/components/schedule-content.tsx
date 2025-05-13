@@ -6,7 +6,7 @@ const ScheduleContent: FC<{
   eventSchedule: Schedule[];
 }> = ({ eventSchedule }) => {
   return (
-    <div className="mt-6 bg-card rounded-md">
+    <div className="mt-6 bg-card rounded-md blur-xs">
       {eventSchedule.map((item, index) => {
         return (
           <div

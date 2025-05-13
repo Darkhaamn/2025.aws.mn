@@ -1,3 +1,4 @@
+import { speakers } from "@/data";
 import { FC } from "react";
 
 const Speakers: FC = () => {
@@ -19,14 +20,14 @@ const Speakers: FC = () => {
         you!
       </p>
 
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start justify-center mt-6 gap-4">
         {speakers.map((item) => {
           return (
             <a
               key={item.name}
-              href={item.link}
-              target="_blank"
-              className="relative flex flex-col bg-clip-border rounded-md bg-card text-card-foreground shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out overflow-auto items-center pb-4"
+              // href="#"
+              target="#"
+              className="relative flex flex-col bg-clip-border rounded-md bg-card text-card-foreground shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out overflow-auto items-center pb-4 blur-xs"
             >
               <div className="relative bg-clip-border mt-4 mx-4 overflow-hidden bg-card text-card-foreground shadow-lg rounded-full w-[200px] h-[200px]">
                 <img
@@ -52,7 +53,7 @@ const Speakers: FC = () => {
             </a>
           );
         })}
-      </div> */}
+      </div>
     </section>
   );
 };
