@@ -46,7 +46,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="fullname"
             required
           />
@@ -66,7 +66,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="email"
             required
           />
@@ -86,7 +86,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="phone"
             required
           />
@@ -106,7 +106,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="company"
             required
           />
@@ -126,7 +126,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="position"
             required
           />
@@ -146,7 +146,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <textarea
-            className="box-border inline-flex w-full resize-none appearance-none items-center justify-center rounded bg-accent p-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex w-full resize-none appearance-none items-center justify-center rounded bg-accent p-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none  shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             name="topic"
             required
           />
