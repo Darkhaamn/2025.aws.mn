@@ -34,11 +34,11 @@ const ApplyForm = () => {
       </h2>
       <Field className="mb-2.5 grid" name="name">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Full name
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter name
@@ -46,7 +46,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="fullname"
             required
           />
@@ -54,11 +54,11 @@ const ApplyForm = () => {
       </Field>
       <Field className="mb-2.5 grid" name="email">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Email
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter email
@@ -66,7 +66,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="email"
             required
           />
@@ -74,11 +74,11 @@ const ApplyForm = () => {
       </Field>
       <Field className="mb-2.5 grid" name="phone">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Phone
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter phone
@@ -86,7 +86,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="phone"
             required
           />
@@ -94,11 +94,11 @@ const ApplyForm = () => {
       </Field>
       <Field className="mb-2.5 grid" name="company">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Company
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter company name
@@ -106,7 +106,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="company"
             required
           />
@@ -114,11 +114,11 @@ const ApplyForm = () => {
       </Field>
       <Field className="mb-2.5 grid" name="position">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Position
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter position
@@ -126,7 +126,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <input
-            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex h-[35px] w-full appearance-none items-center justify-center rounded bg-accent px-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             type="position"
             required
           />
@@ -134,11 +134,11 @@ const ApplyForm = () => {
       </Field>
       <Field className="mb-2.5 grid" name="toplic">
         <div className="flex items-baseline justify-between">
-          <Label className="text-[15px] font-medium leading-[35px] text-white">
+          <Label className="text-[15px] font-medium leading-[35px] dark:text-white">
             Topic
           </Label>
           <Message
-            className="text-[13px] text-white opacity-80"
+            className="text-[13px] dark:text-white opacity-80"
             match="valueMissing"
           >
             Please enter a topic
@@ -146,7 +146,7 @@ const ApplyForm = () => {
         </div>
         <Control asChild>
           <textarea
-            className="box-border inline-flex w-full resize-none appearance-none items-center justify-center rounded bg-accent p-2.5 text-[15px] leading-none text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
+            className="box-border inline-flex w-full resize-none appearance-none items-center justify-center rounded bg-accent p-2.5 text-[15px] leading-none dark:text-white hover:shadow-[0_0_0_1px_white] shadow-black outline-none selection:text-white shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black]"
             name="topic"
             required
           />
@@ -163,7 +163,7 @@ const ApplyForm = () => {
 
       <Submit asChild hidden={sent}>
         <button
-          className="mt-2.5 box-border inline-flex h-[40px] cursor-pointer w-full items-center justify-center rounded bg-primary px-[15px] font-bold leading-none shadow-[0_2px_10px] shadow-black focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none text-white disabled:opacity-75 disabled:cursor-not-allowed"
+          className="mt-2.5 box-border inline-flex h-[40px] cursor-pointer w-full items-center justify-center rounded bg-primary px-[15px] font-bold leading-none shadow-[0_2px_10px] dark:shadow-black focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none text-white disabled:opacity-75 disabled:cursor-not-allowed"
           disabled={loading}
         >
           {loading ? (
