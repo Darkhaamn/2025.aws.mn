@@ -22,7 +22,10 @@ const Hero: FC = () => {
           Scheduled date: 2025 June 13-14
         </div>
 
-        <div className="flex gap-2 md:gap-4 pt-2">
+        <a className="animate-bounce mt-5 mb-5 box-border inline-flex h-[40px] cursor-pointer w-lg items-center justify-center rounded bg-primary px-[15px] font-bold leading-none shadow-[0_2px_10px] shadow-black focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none text-white disabled:opacity-75 disabled:cursor-not-allowed" href="/apply">
+          Become a Speaker
+        </a>
+        <div className="flex gap-2 m:gap-4 pt-2">
           <div className="bg-card flex flex-col items-center justify-center text-center w-16 h-16 rounded-md">
             <div className="text-foreground md:text-xl">
               {formattedRes.days}
