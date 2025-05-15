@@ -1,29 +1,15 @@
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import About from "./components/about";
-import Footer from "./components/footer";
-import Organizers from "./components/organizers";
-import ScheduleSection from "./components/schedule";
-import Speakers from "./components/speakers";
-import Sponsors from "./components/sponsors";
-import Stats from "./components/stats";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './pages/home';
+import ApplyPage from './pages/apply';
 
 function App() {
   return (
-    <>
-      <Header />
-      <div className="mx-auto px-4 w-full max-w-screen-xl">
-        <Hero />
-        <Stats />
-        <About />
-        <Speakers />
-        <ScheduleSection />
-        <Sponsors />
-        <Organizers />
-        {/* <FAQs /> */}
-      </div>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/apply" element={<ApplyPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
