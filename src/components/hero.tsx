@@ -28,7 +28,7 @@ const Hero: FC = () => {
           to={{
             pathname: "/apply",
           }}
-          className="animate-bounce mt-5 mb-5 box-border inline-flex h-[40px] cursor-pointer w-lg items-center justify-center rounded bg-primary px-[15px] font-bold leading-none shadow-[0_2px_10px] dark:shadow-black focus:shadow-[0_0_0_2px] focus:outline-none text-white disabled:opacity-75 disabled:cursor-not-allowed">
+          className="animate-bounce mt-5 mb-5 box-border inline-flex h-[40px] cursor-pointer md:w-lg items-center justify-center rounded bg-primary px-[15px] font-bold leading-none shadow-[0_2px_10px] dark:shadow-black focus:shadow-[0_0_0_2px] focus:outline-none text-white disabled:opacity-75 disabled:cursor-not-allowed">
           Become a Speaker
         </Link>
         <div className="flex gap-2 m:gap-4 pt-2">
